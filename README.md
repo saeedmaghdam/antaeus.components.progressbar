@@ -15,12 +15,11 @@ npm install --save antaeus.components.progressbar
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'antaeus.components.progressbar'
-import 'antaeus.components.progressbar/dist/index.css'
+import ProgressbarComponent from 'antaeus.components.progressbar'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <ProgressbarComponent value="0" />
   }
 }
 ```

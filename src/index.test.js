@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { ProgressbarComponent } from '.'
 
-describe('ExampleComponent', () => {
+describe('ProgressbarComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(ProgressbarComponent).toBeTruthy()
   })
 })
